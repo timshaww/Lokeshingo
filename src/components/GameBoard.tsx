@@ -59,8 +59,8 @@ function GameBoard({ onBingo }: { onBingo: () => void }) {
       return square;
     });
 
-    setBoardState(updatedBoardState); // Update state
-    checkForBingo(updatedBoardState, id); // Now pass the updated state to checkForBingo
+    setBoardState(updatedBoardState);
+    checkForBingo(updatedBoardState, id);
   };
 
   const checkForBingo = (updatedBoardState: Square[], id: number) => {
