@@ -5,7 +5,7 @@ import autoprefixer from 'autoprefixer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/lokeshingo',
+  base: '/Lokeshingo',
   plugins: [
     react()
   ],
